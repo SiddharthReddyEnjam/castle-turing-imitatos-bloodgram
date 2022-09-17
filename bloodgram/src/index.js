@@ -10,6 +10,7 @@ import Donaters from './routes/Donaters';
 import Help from './routes/Help';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
+import Aboutus from './routes/Aboutus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,8 @@ root.render(
           <Route path='home' element={<Home />} />
           <Route path='donate' element={<Donate />} />
           <Route path='donaters' element={<Donaters />} />
-          <Route path='Help' element={<Help />} />
+          <Route path='aboutus' element={<Aboutus />} />
+          <Route path='faqs' element={<Help />} />
         </Route>
         <Route path='Login' element={<Login />} />
       </Routes>

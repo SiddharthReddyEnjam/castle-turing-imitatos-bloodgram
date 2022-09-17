@@ -7,7 +7,7 @@ function Login() {
       <h1>Welcome to Bloodgram</h1>
       <div className='login'>
         <div className='login-title'>
-          <h2>Login to continue</h2>
+          <h2>Login</h2>
         </div>
         <form className='login-form'>
           <input type='text' placeholder='Email / Phone' className='area' />
