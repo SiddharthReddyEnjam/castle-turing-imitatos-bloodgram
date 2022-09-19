@@ -51,7 +51,7 @@ const Navbar = () => {
               <NavLink to='aboutus'>About us</NavLink>
             </li>
             <li>
-              <NavLink to='availableusers'>Available users</NavLink>
+              <NavLink to='availableusers'>Available Donors</NavLink>
             </li>
           </ul>
         </div>
