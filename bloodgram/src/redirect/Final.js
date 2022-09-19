@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
+
 import List_of_user_set from './List_of_user_set';
 import App from './App';
 
@@ -18,8 +20,9 @@ const final = () => {
       })}
       <div className='goto'>
         <h3>Search for Blood Bank </h3>
-        <a href='#'>Click Here</a>
+        <Link to='hospitals'>Click Here</Link>
       </div>
+      <Outlet />
     </div>
   );
 };
