@@ -7,63 +7,64 @@ import {
 } from 'react-icons/bs';
 const DonateWork = (props) => {
   return (
-    <div className='donatemain'>
-      <div className='img-section'>
-        <img src={props.img} alt='img' className='donate-img'></img>
-      </div>
-      <div class='doante-content'>
-        <form className='donate-form'>
-          <label className='donate-level'>
-            <h3>Name </h3> <p>{props.name}</p>
-          </label>
-          <br />
-
-          <label className='donate-level'>
-            <h3>
-              <BsFillTelephoneFill className='donate-icon' />
-              Phone Number
-            </h3>{' '}
-            <p>{props.phone}</p>
-          </label>
-
-          <br />
-          <label className='donate-level'>
-            {' '}
-            <h3>
-              <BsFillDropletFill className='donate-icon' /> Blood Group
-            </h3>{' '}
-            <p>{props.type}</p>
-          </label>
-
-          <br />
-          <label className='donate-level'>
-            <h3>
-              <BsFillGeoAltFill className='donate-icon' />
-              Address
-            </h3>{' '}
-            <p>{props.address}</p>
-          </label>
-
-          <br />
-          <div className='donate-r'>
+    <div class='request-ls'>
+      <div classname='request'>Requested list of users for you</div>
+      <div className='donatemain'>
+        <div class='doante-content'>
+          <form className='donate-form'>
+            <label className='donate-level'>
+              <h3>Name </h3> <p>{props.name}</p>
+            </label>
+            <div className='img-section'>
+              <img src={props.img} alt='img' className='donate-img'></img>
+            </div>
             <br />
-            <h3> Disease</h3>
+            <label className='donate-level'>
+              <h3>
+                <BsFillTelephoneFill className='donate-icon' />
+                Phone Number
+              </h3>
+              <p>{props.phone}</p>
+            </label>
+
             <br />
-            <label for='contactChoice1'>Yes</label>
+            <label className='donate-level'>
+              <h3>
+                <BsFillDropletFill className='donate-icon' /> Blood Group
+              </h3>
+              <p>{props.type}</p>
+            </label>
 
-            <input
-              type='radio'
-              id='contactChoice2'
-              name='contact'
-              value='yes'
-            />
-            <label for='contactChoice2'>No</label>
+            <br />
+            <label className='donate-level'>
+              <h3>
+                <BsFillGeoAltFill className='donate-icon' />
+                Address
+              </h3>{' '}
+              <p>{props.address}</p>
+            </label>
 
-            <input type='radio' id='contactChoice3' name='contact' value='No' />
-          </div>
-          <input type='textarea' className='messagebox' placeholder='Message' />
-          <button className='Donate-btn'>Donate Now </button>
-        </form>
+            <br />
+            <div className='donate-r'>
+              <br />
+              <h3> Disease</h3>
+              <br />
+              <label for='contactChoice1'>Yes</label>
+
+              <input
+                type='radio'
+                id='contactChoice2'
+                name='contact'
+                value='yes'
+              />
+              <label for='contactChoice2'>No</label>
+
+              <input type='radio' id='contactChoice3' name='contact' value='No' />
+            </div>
+            <input type='textarea' className='messagebox' placeholder='Message' />
+            <button className='Donate-btn'>Donate Now </button>
+          </form>
+        </div>
       </div>
     </div>
   );

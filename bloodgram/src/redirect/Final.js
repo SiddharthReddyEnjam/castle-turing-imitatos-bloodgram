@@ -6,7 +6,8 @@ import App from './App';
 
 const final = () => {
   return (
-    <div>
+    <div className='index_div'>
+      <h1>Our available Donors</h1>
       {List_of_user_set.map((value, index) => {
         return (
           <App

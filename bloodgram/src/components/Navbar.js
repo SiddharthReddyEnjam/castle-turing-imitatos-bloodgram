@@ -45,13 +45,13 @@ const Navbar = () => {
               <NavLink to='donate'>Donate</NavLink>
             </li>
             <li>
-              <NavLink to='donaters'>Our Donaters</NavLink>
+              <NavLink to='donaters'>Our Reviews</NavLink>
             </li>
             <li>
               <NavLink to='aboutus'>About us</NavLink>
             </li>
             <li>
-              <NavLink to='availableusers'>Availableusers</NavLink>
+              <NavLink to='availableusers'>Available users</NavLink>
             </li>
           </ul>
         </div>

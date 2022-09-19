@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-
+import { BiUser } from 'react-icons/bi'
 import {
   BsFillDropletFill,
   BsFillGeoAltFill,
@@ -12,8 +12,7 @@ const App = (props) => {
     <div className='user-main'>
       <div className='sub_main'>
         <p className='list-para'>
-          {' '}
-          <h5>Name</h5> <p>{props.name} </p>
+          <h5><BiUser className='list-icon' />Name</h5> <p>{props.name} </p>
           {show ? (
             <div className='contx-list'>
               <div className='list-div2'>

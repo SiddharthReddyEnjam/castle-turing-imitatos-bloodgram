@@ -59,4 +59,7 @@
 .info {
   font-size: 1.5rem;
   color: #555;
+  height: 3rem;
+  margin-top: 2rem;
+  overflow: hidden;
 }

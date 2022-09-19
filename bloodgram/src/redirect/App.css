@@ -1,3 +1,7 @@
+.index_div {
+  background-color: rgb(254 226 226);
+}
+
 .user-main {
   display: flex;
   flex-direction: column;
@@ -32,6 +36,7 @@
   font-weight: 500;
   border: none;
   align-items: center;
+  background-color: white;
 }
 
 .list-btn {
@@ -50,9 +55,11 @@
   margin-left: 16rem;
   margin-bottom: 2rem;
 }
+
 .list-btn:active {
   opacity: 0.5;
 }
+
 .contx-list {
   display: flex;
 
@@ -67,24 +74,29 @@
   row-gap: 3px;
 */
 }
+
 .contx-list p {
   font-size: 6px;
   color: gray;
   font-weight: 400;
 }
+
 .list-para p {
   font-size: 6px;
   color: gray;
   font-weight: 400;
 }
+
 .list-icon {
-  color: rgb(94 234 212);
+  color: hsl(0, 81%, 24%);
   font-size: 1rem;
   width: 1.1rem;
 }
+
 .syn-list {
   color: #134d13;
 }
+
 .list-img {
   width: 10rem;
   height: 9rem;
@@ -94,11 +106,13 @@
   float: right;
   object-fit: cover;
 }
+
 .user-main h1 {
   color: black;
   font-weight: 800;
   padding: 1rem;
 }
+
 .index_div {
   text-align: center;
   padding: 2rem;
