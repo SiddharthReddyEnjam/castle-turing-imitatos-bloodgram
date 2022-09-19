@@ -4,8 +4,8 @@ const Form = () => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
-    email: '',
     password: '',
+    pincode: '',
   });
 
   const updateFormData = (event) =>
@@ -14,11 +14,11 @@ const Form = () => {
       [event.target.name]: event.target.value,
     });
 
-  const { firstName, lastName, email, password } = formData;
+  const { firstName, lastName, password, pincode } = formData;
 
   return (
-    <div className='contact'>
-      <h1>Please fill the Below important information</h1>
+    <div className='contact' id='take'>
+      <h1>Please fill the form Below</h1>
       <form className='contact-form'>
         <label>Name</label>
         <input
@@ -49,13 +49,22 @@ const Form = () => {
           <option>O+</option>
           <option>O-</option>
         </select>
-        <label>Contact Number</label>
+        <label>Mobile Number</label>
         <input
-          value={email}
+          value={password}
           onChange={(e) => updateFormData(e)}
           placeholder='Valid Contact Number'
-          type='email'
-          name='email'
+          type='number'
+          name='number'
+          required
+        />
+        <label>Area Pincode</label>
+        <input
+          value={pincode}
+          onChange={(e) => updateFormData(e)}
+          placeholder='Pincode'
+          type='number'
+          name='pincode'
           required
         />
         <label>City</label>

@@ -1,10 +1,7 @@
 /* Main component */
 .main {
-  /* width: 130rem; */
-  /* margin: 10rem auto; */
   padding: 7rem;
   text-align: center;
-  /* background-color: rgb(173, 61, 39); */
   background-color: #4c1105;
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.6),

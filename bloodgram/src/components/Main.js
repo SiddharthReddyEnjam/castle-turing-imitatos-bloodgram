@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { BiDonateBlood } from 'react-icons/bi';
 import { MdBloodtype } from 'react-icons/md';
 import { FaHandsHelping } from 'react-icons/fa';
@@ -18,21 +20,25 @@ function Main() {
       </div>
       <div className='border-line'></div>
       <div className='main-need'>
-        <p>Daily an apple keeps you doctor away</p>
+        <p>The gift of blood is a gift to someone's life</p>
         <div className='button'>
-          <button className='btn btn-need'>
-            Need Blood
-            <MdBloodtype />
-          </button>
+          <a href='#take'>
+            <button className='btn btn-need'>
+              Need Blood
+              <MdBloodtype />
+            </button>
+          </a>
         </div>
       </div>
       <div className='main-donate'>
         <p>There are thousands of people who are in need of blood...</p>
         <div className='button'>
-          <button className='btn btn-donate'>
-            Donate Now
-            <BiDonateBlood />
-          </button>
+          <Link to='/donate' className='Link'>
+            <button className='btn btn-donate'>
+              Donate Now
+              <BiDonateBlood />
+            </button>
+          </Link>
         </div>
       </div>
     </div>

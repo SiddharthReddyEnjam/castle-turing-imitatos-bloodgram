@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 
 import './Navbar.css';
+import Footer from './Footer';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const CloseIcon = () => <AiOutlineClose size={30} />;
@@ -50,7 +51,7 @@ const Navbar = () => {
               <NavLink to='aboutus'>About us</NavLink>
             </li>
             <li>
-              <NavLink to='faqs'>FAQs</NavLink>
+              <NavLink to='availableusers'>Availableusers</NavLink>
             </li>
           </ul>
         </div>

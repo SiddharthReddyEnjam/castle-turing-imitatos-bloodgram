@@ -1,7 +1,10 @@
 import React from 'react';
+import Aboutwork from '../components/Aboutwork';
 
-function Aboutus() {
-  return <div>Aboutus</div>;
+export default function Aboutus() {
+  return (
+    <div>
+      <Aboutwork />
+    </div>
+  );
 }
-
-export default Aboutus;

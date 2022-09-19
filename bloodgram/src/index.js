@@ -7,10 +7,11 @@ import App from './App';
 import Home from './routes/Home';
 import Donate from './routes/Donate';
 import Donaters from './routes/Donaters';
-import Help from './routes/Help';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
 import Aboutus from './routes/Aboutus';
+import Accordion from './components/Accordion';
+import Final from './redirect/Final';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,7 @@ root.render(
           <Route path='donate' element={<Donate />} />
           <Route path='donaters' element={<Donaters />} />
           <Route path='aboutus' element={<Aboutus />} />
-          <Route path='faqs' element={<Help />} />
+          <Route path='availableusers' element={<Final />} />
         </Route>
         <Route path='Login' element={<Login />} />
       </Routes>

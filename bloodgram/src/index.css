@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -9,6 +10,14 @@ html {
   font-family: sans-serif;
 }
 
-body{
+body {
   position: relative;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
