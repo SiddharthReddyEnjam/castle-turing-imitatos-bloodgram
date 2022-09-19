@@ -1,7 +1,4 @@
- ```
-https://bloodgram.netlify.app/
- ```
- 
+
 **⚡️Our Project:** 
 
  ```
@@ -40,6 +37,7 @@ Step 3:
  ```
  npm run start / npm start
  ```
+ **For Live :https://bloodgram.netlify.app/**
 
 **⚡️Our Project's current Highlights :**
  ```
